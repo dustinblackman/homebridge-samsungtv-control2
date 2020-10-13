@@ -21,6 +21,7 @@ const getRemoteConfig = (config: DeviceConfig) => {
     ip: config.lastKnownIp,
     name: PLATFORM_NAME,
     port,
+    token: config.token
   }
 }
 
